@@ -27,11 +27,3 @@ const carrinhoSlice = createSlice({
 
 export const { adicionar } = carrinhoSlice.actions
 export default carrinhoSlice.reducer
-
-// function adicionarAoCarrinho(produto: Produto) {
-// if (carrinho.find((p) => p.id === produto.id)) {
-//     alert('Item já adicionado')
-// } else {
-//     setCarrinho([...carrinho, produto])
-// }
-// }
